@@ -1,0 +1,124 @@
+body {
+    background-color: black;
+}
+
+.topbox {
+    background-color: white;
+        border: 6px solid red;
+        color: black;
+        border-radius: 10px;
+        width: 330px; 
+        height: 130px;  
+        font-weight: 700; 
+        font-size: 20px;
+        font-style: italic;
+        text-align: center;
+        position: relative;
+        left: 550px;
+        box-shadow: 4px 4px 5px white;
+        text-shadow: 1px -1px 1px black ;
+}
+.secondbox {
+    border: 8px solid green;
+    
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.box1 {
+    border: 6px solid red;
+    width: 280px;
+    height: 250px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px white;
+    text-shadow: 1px -1px 1px black ;
+}
+.setsize {
+     margin-top: 50px; 
+}
+.box3 {
+    border: 6px solid red;
+    width: 250px;
+    height: 250px;
+    padding: 10px 5px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px white;
+    text-shadow: 1px -1px 1px black ;
+    
+    } 
+button{
+    background-color: red;
+    border-radius:  30px;
+}
+.float {
+    background-color: greenyellow;
+    left: 33%;
+    top: 85vh;
+    border: 6px solid red;
+    height: 70px;
+    width: 500px;
+    display: flex;
+    position: fixed;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+   box-shadow: 4px 4px 5px white;
+    text-shadow: 1px -1px 1px black ;
+    border-radius: 10px;
+    z-index: 1;
+}
+.float1 {
+    color: red;
+    font-size: 24px;
+    }
+
+.b {
+    font-size: 20px;
+}    
+.bit{
+    text-align: center;
+    position: relative;
+    height: 790px;
+    top: 20px;
+    left: 360px;
+    width: 700px;
+    display: flex;
+    background-color: grey;
+    border: 7px solid red;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.fix1 {
+    margin-left: 200px;
+}
+.fruits {
+    font-style: italic;
+    text-align: center;
+    background-color: yellow;
+    width: 345px;
+    height: 285px;
+    line-height: 2.3;
+}
+.others{
+    background-color:yellowgreen;
+    width: 650px;
+    height: 285px;
+    padding: 25px;
+    line-height: 2.3;
+}
+
+
+
+
